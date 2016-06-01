@@ -37,8 +37,8 @@ class ControllerContacto {
 			$servidor.=$porciones[$i]."/";
 			
 		    }
-
-	    return $app['twig'] -> render('/home/view.home.twig', $params);
+		$params = array();
+	    return $app['twig'] -> render('/contacto/view.contacto.twig', $params);
 	}
 
 }
