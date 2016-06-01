@@ -1,0 +1,12 @@
+/*Maquetacion barra encabezado y pie AndyManuel Jul-2015*/
+.auxiliar		{ outline: none;  text-decoration: none; font-family: Arial,Helvetica,sans-serif; color: #4c4c4c; font-size: 12px; }
+.mainFooterI 	{ background: url("images/mainFooterBack.png") repeat-x scroll center center #D52B1E; width: 100%; height: 56px; bottom: 0; }
+.mainFooter		{ background: url("images/mainFooterBack.png") repeat-x scroll center center #D52B1E; width: 100%; height: 56px; bottom: 0; position: absolute; }
+.derechosRes	{ color: #FFF; clear: none; float: left; margin-top: 20px;}
+.contCent		{ width: 960px; height: auto; margin: 0 auto; }
+.mainHeader		{ background: url("images/mainBannerBack.png") repeat-x scroll center top transparent; width: 100%; z-index: 940; top: 24px; height: 50px; top: 0; }
+.mainHeaderI	{ background: url("images/mainBannerBack.png") repeat-x scroll center top transparent; width: 100%; z-index: 940; top: 24px; height: 50px; position: absolute; top: 0; }
+.logoClaro		{ width: 80px; height: 30px; background: url("images/logoClaroA.png") no-repeat scroll left top transparent; display: inline-block; vertical-align: top; /* ie 6-7*/ *display: inline; *zoom: 1; margin-top: 10px;}
+.espacioA		{ height: 30px; }
+body, html		{ min-height: 100%; width: 100% !important; margin: 0px; top:0; left: 0; position: absolute;}
+.bodyAFix		{ position: initial !important;}
